@@ -125,7 +125,7 @@ vec BALL(vec ri){
 }
 
 double Ek(vec p){
-	return (0.5*m)*sq(p);
+	return (0.5/m)*sq(p);
 }
 
 double Ek_tot(std::vector<vec> p_list){
